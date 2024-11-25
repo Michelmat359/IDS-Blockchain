@@ -1,0 +1,115 @@
+2024-11-25 00:58:16,467 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://158.42.105.196:5000
+2024-11-25 00:58:16,467 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-25 00:58:16,469 [INFO]  * Restarting with stat
+2024-11-25 00:58:19,421 [WARNING]  * Debugger is active!
+2024-11-25 00:58:19,427 [INFO]  * Debugger PIN: 313-859-577
+2024-11-25 00:58:39,580 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 00:58:39,580 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 00:58:39,581 [INFO] 127.0.0.1 - - [25/Nov/2024 00:58:39] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 00:59:20,259 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 00:59:20,259 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 00:59:20,260 [INFO] 127.0.0.1 - - [25/Nov/2024 00:59:20] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 01:01:26,199 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://158.42.105.196:5000
+2024-11-25 01:01:26,199 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-25 01:01:26,200 [INFO]  * Restarting with stat
+2024-11-25 01:01:28,475 [WARNING]  * Debugger is active!
+2024-11-25 01:01:28,480 [INFO]  * Debugger PIN: 313-859-577
+2024-11-25 01:01:35,165 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 01:01:35,165 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:01:35,166 [INFO] 127.0.0.1 - - [25/Nov/2024 01:01:35] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 01:02:14,057 [INFO] Solicitud recibida: POST http://127.0.0.1:5000/store
+2024-11-25 01:02:14,057 [INFO] Cuerpo de la solicitud: {'name': 'Laura', 'value': '5000', 'timestamp': '2024-12-12T20:20'}
+2024-11-25 01:02:14,086 [INFO] 127.0.0.1 - - [25/Nov/2024 01:02:14] "[35m[1mPOST /store HTTP/1.1[0m" 201 -
+2024-11-25 01:02:25,836 [INFO] Solicitud recibida: GET http://127.0.0.1:5000/retrieve?data.name=Laura
+2024-11-25 01:02:25,836 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:02:25,836 [INFO] 127.0.0.1 - - [25/Nov/2024 01:02:25] "[35m[1mGET /retrieve?data.name=Laura HTTP/1.1[0m" 500 -
+2024-11-25 01:02:51,797 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://158.42.105.196:5000
+2024-11-25 01:02:51,797 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-25 01:02:51,799 [INFO]  * Restarting with stat
+2024-11-25 01:02:53,817 [WARNING]  * Debugger is active!
+2024-11-25 01:02:53,822 [INFO]  * Debugger PIN: 313-859-577
+2024-11-25 01:02:54,284 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 01:02:54,284 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:02:54,285 [INFO] 127.0.0.1 - - [25/Nov/2024 01:02:54] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 01:02:58,765 [INFO] Solicitud recibida: GET http://127.0.0.1:5000/retrieve?data.name=Laura
+2024-11-25 01:02:58,766 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:02:58,766 [INFO] 127.0.0.1 - - [25/Nov/2024 01:02:58] "[35m[1mGET /retrieve?data.name=Laura HTTP/1.1[0m" 500 -
+2024-11-25 01:03:08,532 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 01:03:08,532 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:03:08,532 [INFO] 127.0.0.1 - - [25/Nov/2024 01:03:08] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 01:04:26,258 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 01:04:26,258 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:04:26,258 [INFO] 127.0.0.1 - - [25/Nov/2024 01:04:26] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 01:04:26,957 [INFO]  * Detected change in 'C:\\Users\\mimaca1\\Projects\\IDS\\Project3\\IDs-project-3\\app_modelo\\api.py', reloading
+2024-11-25 01:04:27,634 [INFO]  * Restarting with stat
+2024-11-25 01:04:32,367 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://158.42.105.196:5000
+2024-11-25 01:04:32,367 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-25 01:04:32,368 [INFO]  * Restarting with stat
+2024-11-25 01:04:34,434 [WARNING]  * Debugger is active!
+2024-11-25 01:04:34,439 [INFO]  * Debugger PIN: 313-859-577
+2024-11-25 01:04:54,087 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 01:04:54,087 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:04:54,088 [INFO] 127.0.0.1 - - [25/Nov/2024 01:04:54] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 01:08:06,065 [INFO]  * Detected change in 'C:\\Users\\mimaca1\\Projects\\IDS\\Project3\\IDs-project-3\\app_modelo\\api.py', reloading
+2024-11-25 01:08:06,363 [INFO]  * Restarting with stat
+2024-11-25 01:08:08,406 [WARNING]  * Debugger is active!
+2024-11-25 01:08:08,411 [INFO]  * Debugger PIN: 313-859-577
+2024-11-25 01:08:58,770 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 01:08:58,770 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:08:58,770 [INFO] 127.0.0.1 - - [25/Nov/2024 01:08:58] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 01:10:41,757 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 01:10:41,757 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:10:41,758 [INFO] 127.0.0.1 - - [25/Nov/2024 01:10:41] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 01:11:07,274 [INFO] Solicitud recibida: OPTIONS http://127.0.0.1:5000/store
+2024-11-25 01:11:07,274 [ERROR] Error: 415 Unsupported Media Type: Did not attempt to load JSON data because the request Content-Type was not 'application/json'.
+2024-11-25 01:11:07,274 [INFO] 127.0.0.1 - - [25/Nov/2024 01:11:07] "[35m[1mOPTIONS /store HTTP/1.1[0m" 500 -
+2024-11-25 01:11:39,632 [INFO]  * Detected change in 'C:\\Users\\mimaca1\\Projects\\IDS\\Project3\\IDs-project-3\\app_modelo\\api.py', reloading
+2024-11-25 01:11:40,317 [INFO]  * Restarting with stat
+2024-11-25 01:38:51,202 [INFO] Iniciando la API...
+2024-11-25 01:38:51,291 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-25 01:38:51,307 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://158.42.105.196:5000
+2024-11-25 01:38:51,307 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-25 01:38:51,308 [INFO]  * Restarting with stat
+2024-11-25 01:38:55,036 [INFO] Iniciando la API...
+2024-11-25 01:38:55,120 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-25 01:38:55,130 [WARNING]  * Debugger is active!
+2024-11-25 01:38:55,137 [INFO]  * Debugger PIN: 313-859-577
+2024-11-25 01:40:52,638 [INFO]  * Detected change in 'C:\\Users\\mimaca1\\Projects\\IDS\\Project3\\IDs-project-3\\app_modelo\\ml_pipeline.py', reloading
+2024-11-25 01:40:55,294 [INFO]  * Restarting with stat
+2024-11-25 01:41:12,610 [INFO] Iniciando la API...
+2024-11-25 01:41:12,825 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-25 01:41:12,849 [WARNING]  * Debugger is active!
+2024-11-25 01:41:12,863 [INFO]  * Debugger PIN: 313-859-577
+2024-11-25 01:43:27,036 [INFO]  * Detected change in 'C:\\Users\\mimaca1\\Projects\\IDS\\Project3\\IDs-project-3\\app_modelo\\api.py', reloading
+2024-11-25 01:43:27,952 [INFO]  * Restarting with stat
+2024-11-25 01:43:33,389 [INFO] Iniciando la API...
+2024-11-25 01:43:33,500 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-25 01:43:33,513 [WARNING]  * Debugger is active!
+2024-11-25 01:43:33,518 [INFO]  * Debugger PIN: 313-859-577
+2024-11-25 01:51:04,275 [INFO] Iniciando la API...
+2024-11-25 01:51:04,364 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-25 01:51:04,378 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://158.42.105.196:5000
+2024-11-25 01:51:04,378 [INFO] [33mPress CTRL+C to quit[0m
+2024-11-25 01:51:04,380 [INFO]  * Restarting with stat
+2024-11-25 01:51:08,947 [INFO] Iniciando la API...
+2024-11-25 01:51:09,053 [WARNING] Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2024-11-25 01:51:09,063 [WARNING]  * Debugger is active!
+2024-11-25 01:51:09,068 [INFO]  * Debugger PIN: 313-859-577
